@@ -15,3 +15,8 @@ def Kowalczyk_Pawel_sieczne(x1,x2,eps):
         xn=(function(xk)*xm - function(xm)*xk)/(function(xk) - function(xm))
     return xn
 
+x1=-1.1
+x2=-1.0
+eps=0.00000001
+
+print(Kowalczyk_Pawel_sieczne(x1,x2,eps))
