@@ -1,7 +1,3 @@
-import math
-import numpy as np
-import matplotlib.pylab as p
-
 
 def Kowalczyk_Pawel_Lagrange(x, xw, yw, n):
     # n - degree of a polynomial; xw,yw - nodes of the polynomial
