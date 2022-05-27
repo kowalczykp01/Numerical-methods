@@ -1,7 +1,6 @@
 
 def function(x):
-    result = eval("x*x*x - x - 2")
-    return result
+    return x*x*x - x -2
 
 def kowalczyk_pawel_bisekcja(a, b, eps):
     c = (a+b)/2
